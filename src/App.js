@@ -7,6 +7,11 @@ import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+// Import Admin at the top
+import Admin from './pages/Admin';
+
+// Add route inside <Routes>
+
 
 import './App.css';
 
@@ -19,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
 
         <Footer />
